@@ -185,10 +185,15 @@ footer{
 .footer-content{
     display: flex;
     gap: 50px;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: center;
+    /* justify-content:space-around; */
 }
 .footer-left-content{
-    width: 400px;
+    width: 50%;
+}
+.right-content{
+  width: 50%;
 }
 
 input,textarea{
@@ -281,6 +286,9 @@ header {
 }
 .footer-left-content{
     width: 100%;
+}
+.footer-right-content{
+  width: 100%;
 }
 footer{
   padding: 20px;
